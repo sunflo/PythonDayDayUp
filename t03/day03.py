@@ -26,4 +26,20 @@ for i in range(100):
         break
     if i % 2 == 0:
         continue
-    print(i)
+    # print(i)
+
+# dist
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+print(d.get("Bob", 1))
+print(d["Bob"])
+print("Bob" in d)
+# print(d.get("r"))
+
+# set
+s = set([1, 2, 5, 4])
+s.add(12)
+s.remove(2)
+
+for k in s:
+    print(k)
+
