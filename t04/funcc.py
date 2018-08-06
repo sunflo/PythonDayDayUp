@@ -19,4 +19,5 @@ from t04.funcClazz import *
 # extra = {"city": "suzhou", "job": "engineer"}
 # person("micheal", 23, **extra, zipcode=12344)
 
+# 这里有点凌乱，既然限制输入的参数名，那何苦多次一举设置为可变参数呢？
 person1("flo", 26, city="suzhou", job="en")
