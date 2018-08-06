@@ -27,3 +27,6 @@ print(fact(20))
 
 s = "abcded"
 print(s[-2:-1])
+
+print(list(range(1, 11)))
+print([x * x for x in range(1, 11)])
