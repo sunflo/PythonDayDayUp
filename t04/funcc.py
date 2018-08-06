@@ -21,3 +21,9 @@ from t04.funcClazz import *
 
 # 这里有点凌乱，既然限制输入的参数名，那何苦多次一举设置为可变参数呢？
 person1("flo", 26, city="suzhou", job="en")
+
+# 递归
+print(fact(20))
+
+s = "abcded"
+print(s[-2:-1])

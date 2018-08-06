@@ -36,3 +36,21 @@ def person(name, age, **extra):
 
 def person1(name, age, *, city, job):
     print(name, age, city, job)
+
+
+def fact(x):
+    if x == 1:
+        return 1
+    return x * fact(x - 1)
+
+
+def trim(s):
+    if s[:1] == ' ':
+        return trim(s[1:])
+    elif s[-1:] == ' ':
+        return trim(s[:-1])
+    else:
+        return s
+
+
+
