@@ -17,6 +17,7 @@ def execute(func):
     return validate
 
 
+# 装饰器，语法糖，等价于my_avg = execute(my_avg)
 @execute
 def my_avg(*args):
     return sum(args) / len(args)
